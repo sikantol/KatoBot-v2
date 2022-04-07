@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/4ndrexyz/KatoBot.git"
+    "url": "git+https://github.com/4ndrexyz/KatoBot-v2.git"
   },
   "keywords": [
     "Whatsapp-Bot",
@@ -16,12 +16,12 @@
     "wa-bot",
     "kato-bot"
   ],
-  "author": "@4ndrexyz",
+  "author": "4ndrexyz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/4ndrexyz/kato-bot/issues"
+    "url": "https://github.com/4ndrexyz/KatoBot-v2/issues"
   },
-  "homepage": "https://github.com/4ndrexyz/KatoBot.git",
+  "homepage": "https://github.com/4ndrexyz/KatoBot-v2.git",
   "dependencies": {
     "@open-wa/wa-automate": "^4.27.8",
     "app-root-path": "^3.0.0",
