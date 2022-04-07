@@ -22,8 +22,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/4ndrexyz/KatoBot-v1.git
-cd KatoBot-v1
+git clone https://github.com/4ndrexyz/KatoBot-v2.git
+cd KatoBot-v2
 npm install
 npm update
 ```
@@ -51,14 +51,14 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-#### INSTALLING NODEJS & Andrexyz Bot
+#### INSTALLING NODEJS & Kato Bot v2
 
 ```bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/4ndrexyz/KatoBot-v1
-cd KatoBot-v1
+git clone https://github.com/4ndrexyz/KatoBot-v2
+cd KatoBot-v2
 npm install
 npm update
 ```
@@ -73,8 +73,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/4ndrexyz/KatoBot-v1.git
-cd KatoBot-v1
+git clone https://github.com/4ndrexyz/KatoBot-v2.git
+cd KatoBot-v2
 npm install
 npm update
 ```
@@ -83,7 +83,7 @@ npm update
 
 
 ## DEPLOY HEROKU
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/4ndrexyz/AndrexyzBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/4ndrexyz/KatoBot-v2)
 
 ## RUN
 
@@ -111,7 +111,7 @@ Used for [heroku](https://heroku.com/) or scan through website
 ### `--db <json-server-url>`
 
 Use external db instead of local db, 
-Example Server `https://json-server.andrexyz.repl.co/`
+Example Server `https://json-server.narutomo.repl.co/`
 
 Code: `https://repl.it/@narutomo/json-server`
 
@@ -161,9 +161,6 @@ conn.logger.level = 'trace'
 conn.logger.level = 'debug'
 ```
 
-## Settings
-
-Now set using switch [enable.js](https://github.com/Nurutomo/wabot-aq/blob/master/plugins/enable.js), among others are
 
 ```js
 anticall: false, // Auto Reject better than autoblock
@@ -176,9 +173,9 @@ gconly: false, // If that chat not from group, bot will ignore
 jadibot: false, 
 ```
 
----------
+
+-----------------------------
 
 ## Thanks to
 - [WA-Automate](https://github.com/open-wa/wa-automate-nodejs)
-- [Narutomo](https://github.com/Nurutomo)
-<!-- - [Urbaexyz](https://github.com/Urbaexyz) -->
+- [Urbaexyz](https://github.com/Urbaexyz)
